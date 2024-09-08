@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/HA_kiosk/kiosksampleimage_square.jpg
 title: "Vertical Home Assistant Kiosk- Raspberry Pi4"
 date: 9-7-2024
 published: true
@@ -11,7 +11,7 @@ labels:
 summary: "Using a Raspberry Pi4 to display a Home Assitant dashboard on a Vertical TV"
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<img class="img-fluid" src="https://github.com/agadin/agadin.github.io/blob/main/img/HA_kiosk/kiosksampleimage_square.jpg">
 
 # Overview
 For the longest time I wanted to use an old 1080p TV to display a Home Assistant dashboard, so that I did not have to open the home assistant app or go to a website. This project walks through the steps (and many lessons I have learned) trying to implement a fun and simple TV dashboard (famous last words).
