@@ -2,20 +2,23 @@
 layout: project
 type: project
 image: img/cotton/cotton-square.png
-title: "Cotton"
-date: 2014
+title: "Vertical Home Assistant Kiosk- Raspberry Pi4"
+date: 9-7-2024
 published: true
 labels:
-  - Lisp
-  - GitHub
-summary: "A text adventure game that I developed for ICS 313."
+  - Home Assistant
+  - Raspberry Pi4
+summary: "Using a Raspberry Pi4 to display a Home Assitant dashboard on a Vertical TV"
 ---
 
 <img class="img-fluid" src="../img/cotton/cotton-header.png">
 
-Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+# Overview
+For the longest time I wanted to use an old 1080p TV to display a Home Assistant dashboard, so that I did not have to open the home assistant app or go to a website. This project walks through the steps (and many lessons I have learned) trying to implement a fun and simple TV dashboard (famous last words).
 
-To give you a flavor of the game, here is an excerpt from one run:
+## Preparing the Dashboard
+Before a dashboard could be displayed on my ancient TV, I first had to make one in [Home Assistant](https://github.com/home-assistant). In my local home assistant instance I went to `Settings`-> `Dashboards` -> `+ ADD DASHBOARD` button located in the bottom left. After naming it something creative (Kiosk), I clicked open and began to add card entites until I was happy. See below for my implementation and some layout considerations.
+
 
 <hr>
 
